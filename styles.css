@@ -1,0 +1,65 @@
+body{
+    margin-left: 30px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    float: left;
+    width:260px;
+    height:190px;
+}
+
+#logo{
+    width:200px;
+    height:40px;
+}
+
+.cor-diferente{
+    color: blue;
+}
+
+div{
+    width: 45%;
+}
+
+p{
+    font-size: 14pt;
+}
+
+.beauty{
+    display: inline-block;
+    position: absolute;
+}
+
+#image-beauty{
+    margin-right: 20px;
+}
+
+.construction{
+    float: right;
+}
+
+#image-construction{
+    margin-right: 20px;
+}
+
+.footer{
+    color: blue;
+    font: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (max-width: 768px) {
+    body{
+        background-color: lightsalmon;
+    }
+}
+
+@media (max-width: 480px) {
+    body{
+        background-color: blue;
+    }
+}
