@@ -59,7 +59,6 @@ p{
         margin-right: 5px;
     }
     img{
-        float: left;
         width:130px;
         height:95px;
     }
@@ -67,26 +66,16 @@ p{
     .construction{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        text-align: center;
     }
-    #image-beauty,
-    #image-construction{
-        margin: 0;
-        display: block;
+    p{
+        font-size: 12pt;
     }
     #logo{
         width: 120px;
         height: 24px;
     }
-    div{
-        width: 100%;
-    }
-    p{
-        font-size: 12pt;
-        text-align: right;
-    }
     .footer{
-        font-size: 8px;
+        font-size: 6px;
+        position: fixed;
     }
 }
