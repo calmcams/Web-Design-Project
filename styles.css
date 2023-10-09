@@ -60,18 +60,8 @@ p{
     }
     img{
         float: left;
-        width:78px;
-        height:57px;
-    }
-    .beauty,
-    .construction{
-        display: flex;
-        flex-direction: column;
-    }
-    #image-beauty,
-    #image-construction{
-        margin: 0;
-        display: block;
+        width:130px;
+        height:95px;
     }
     #logo{
         width: 120px;
