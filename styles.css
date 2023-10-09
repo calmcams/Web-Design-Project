@@ -55,5 +55,20 @@ p{
 @media (max-width: 480px) {
     body{
         background-color: pink;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    #logo{
+        width: 120px;
+        height: 24px;
+    }
+    div{
+        width: 100%;
+    }
+    p{
+        font-size: 12pt;
+    }
+    .footer{
+        font-size: 8px;
     }
 }
