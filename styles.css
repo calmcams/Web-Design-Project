@@ -58,10 +58,22 @@ p{
         margin-left: 5px;
         margin-right: 5px;
     }
-     img{
+    img{
         float: left;
-        width:130px;
-        height:95px;
+        width:78px;
+        height:57px;
+    }
+    .beauty,
+    .construction{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #image-beauty,
+    #image-construction{
+        margin: 0;
+        display: block;
     }
     #logo{
         width: 120px;
